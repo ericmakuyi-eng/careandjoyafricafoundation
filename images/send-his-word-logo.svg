@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-labelledby="title desc">
+  <title id="title">Send His Word Ministries Logo</title>
+  <desc id="desc">Circular church logo with an open Bible, flame, dove and cross motif.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#6fd5ff"/>
+      <stop offset="1" stop-color="#0c78bf"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffe08a"/>
+      <stop offset="1" stop-color="#c99a35"/>
+    </linearGradient>
+  </defs>
+  <circle cx="120" cy="120" r="112" fill="#fff" stroke="#0c3157" stroke-width="8"/>
+  <circle cx="120" cy="120" r="96" fill="#f7fbff" stroke="#25b8ed" stroke-width="3"/>
+  <path d="M58 73c31-22 87-20 124 0-20 11-40 18-62 18S78 84 58 73Z" fill="url(#sky)" opacity=".95"/>
+  <path d="M95 67c14-18 30-18 44 0-8-4-15-5-22-5s-14 1-22 5Z" fill="#fff"/>
+  <path d="M120 63v63" stroke="#0c3157" stroke-width="8" stroke-linecap="round"/>
+  <path d="M96 88h48" stroke="#0c3157" stroke-width="8" stroke-linecap="round"/>
+  <path d="M82 150c22-13 42-13 60 0v32c-18-13-38-13-60 0v-32Z" fill="#fff" stroke="#0c3157" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M142 150c16-12 34-13 56-3v32c-22-10-40-9-56 3v-32Z" fill="#fff" stroke="#0c3157" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M142 150v32" stroke="#0c3157" stroke-width="5" stroke-linecap="round"/>
+  <path d="M83 146c25-17 48-17 59 1" fill="none" stroke="url(#gold)" stroke-width="6" stroke-linecap="round"/>
+  <path d="M143 147c15-15 35-16 55-3" fill="none" stroke="url(#gold)" stroke-width="6" stroke-linecap="round"/>
+  <path d="M120 112c18 12 24 26 18 39-5 11-16 16-18 16s-13-5-18-16c-6-13 0-27 18-39Z" fill="url(#gold)" opacity=".92"/>
+  <path d="M119 126c8 7 12 15 8 24-3 6-7 9-8 9s-6-3-8-9c-4-9 0-17 8-24Z" fill="#fff8e1" opacity=".85"/>
+  <text x="120" y="213" text-anchor="middle" font-family="Georgia, serif" font-size="19" font-weight="700" fill="#0c3157">SEND HIS WORD</text>
+</svg>
