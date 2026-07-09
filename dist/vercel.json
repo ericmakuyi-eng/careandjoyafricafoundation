@@ -1,0 +1,22 @@
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "rewrites": [
+    { "source": "/admin", "destination": "/index.html" },
+    { "source": "/about", "destination": "/index.html" },
+    { "source": "/vision-mission", "destination": "/index.html" },
+    { "source": "/statement-of-faith", "destination": "/index.html" },
+    { "source": "/ministries", "destination": "/index.html" },
+    { "source": "/discipleship-ministry", "destination": "/index.html" },
+    { "source": "/discipleship/:path*", "destination": "/index.html" },
+    { "source": "/healing-ministry", "destination": "/index.html" },
+    { "source": "/marrieds-ministry", "destination": "/index.html" },
+    { "source": "/youth-ministry", "destination": "/index.html" },
+    { "source": "/childrens-ministry", "destination": "/index.html" },
+    { "source": "/programs", "destination": "/index.html" },
+    { "source": "/sermons", "destination": "/index.html" },
+    { "source": "/giving", "destination": "/index.html" },
+    { "source": "/contact", "destination": "/index.html" },
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}
