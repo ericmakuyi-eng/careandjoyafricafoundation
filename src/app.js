@@ -82,7 +82,7 @@ const discipleshipDirector = {
   title: 'Director',
   name: 'Dr. Olive Kobusingye',
   image: '/images/discipleship/director-olive-kifefe.webp',
-  text: 'The Discipleship Ministry is directed by Dr. Olive Kifefe Kobusingye, who provides leadership, guidance and spiritual oversight for the discipleship schools. Through this work, believers are equipped in biblical foundations, prayer, character formation and practical ministry service for Kingdom impact.'
+  text: 'The Discipleship Ministry is directed by Dr. Olive Kobusingye, who provides leadership, guidance and spiritual oversight for the discipleship schools. Through this work, believers are equipped in biblical foundations, prayer, character formation and practical ministry service for Kingdom impact.'
 };
 
 const discipleshipHighlightPhotos = [
