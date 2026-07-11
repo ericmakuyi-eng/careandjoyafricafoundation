@@ -1,7 +1,6 @@
 const pages = [
   'Home',
   'About',
-  'Statement of Faith',
   'Ministries',
   'Programs',
   'Sermons',
@@ -17,7 +16,7 @@ const ministryPages = [
   "Children's Ministry"
 ];
 
-const aboutPages = ['About', 'Vision & Mission'];
+const aboutPages = ['About', 'Vision & Mission', 'Statement of Faith'];
 const schoolPages = ['Northern Discipleship School', 'Central Discipleship School', 'Western Discipleship School'];
 const mandate = '&ldquo;Making Disciples of All Nations&rdquo; &ndash; Matthew 28:19-20';
 
@@ -164,7 +163,6 @@ function header() {
               ${aboutPages.map((item) => button(item)).join('')}
             </div>
           </div>
-          ${button('Statement of Faith')}
           <div class="navGroup">
             <button class="${ministriesActive}" data-page="Ministries">Ministries</button>
             <div class="dropdownMenu">
