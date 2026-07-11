@@ -36,7 +36,7 @@ const schoolData = {
   'Northern Discipleship School': {
     region: 'Northern',
     cover: '/images/discipleship/northern/dn-cover.webp',
-    intro: 'The Northern Discipleship School raises and equips believers for Kingdom impact in Northern Uganda through structured biblical teaching, prayer formation, mentoring and practical ministry preparation.',
+    intro: 'The Northern Uganda Discipleship Center was launched on February 20, 2026, at Chegere Assembly Headquarters to equip pastors and church leaders within the West Lango Pastorate under the Pentecostal Assemblies of God (PAG) umbrella. The center is committed to strengthening church leadership, promoting sound biblical doctrine, and empowering ministers to effectively serve their congregations and communities through discipleship and ministry training.',
     focus: ['Biblical foundations', 'Prayer and character formation', 'Evangelism and community witness'],
     photos: [
       ['/images/discipleship/northern/dn-cover.webp', 'Northern Discipleship School cover photo'],
@@ -49,7 +49,7 @@ const schoolData = {
   'Central Discipleship School': {
     region: 'Central',
     cover: '/images/discipleship/central/dc-cover.webp',
-    intro: 'The Central Discipleship School strengthens believers through teaching, prayer and practical discipleship, serving as a central training point for believers who desire to grow deeper in the Word.',
+    intro: 'Kampala Discipleship Center was launched in July 03, 2017 in Namuwongo, Kampala Region, with a mission to equip pastors, church leaders, and believers for effective Christian ministry and discipleship. As the ministry expanded, the center was relocated to its current premises at Send His Word Church on Rubaga Road, Kampala, next to Furniture house where it continues to serve students from Kampala and neighboring districts.',
     focus: ['Word-based discipleship', 'Fivefold ministry equipping', 'Service and leadership growth'],
     photos: [
       ['/images/discipleship/central/dc-cover.webp', 'Central Discipleship School cover photo'],
@@ -61,7 +61,7 @@ const schoolData = {
   'Western Discipleship School': {
     region: 'Western',
     cover: '/images/discipleship/western/dw-cover.webp',
-    intro: 'The Western Discipleship School builds mature disciples who serve Christ faithfully in their families, churches and communities across the Western region.',
+    intro: 'The Western Uganda Discipleship Center was launched in 2023 and is hosted at Yesu Taremwa Churches in Rukungiri District. The center serves pastors, church leaders, and believers from churches across Western Uganda, providing biblical discipleship, leadership development, and ministry training aimed at strengthening the Church and advancing the Gospel throughout the region.',
     focus: ['Spiritual maturity', 'Family and community witness', 'Practical ministry service'],
     photos: [
       ['/images/discipleship/western/dw-cover.webp', 'Western Discipleship School cover photo'],
@@ -295,7 +295,7 @@ function statementPage() {
 
   return pageShell('Statement of Faith', 'What we believe', `
     <section class="faithIntro">
-      <p>The statements below present the core beliefs of Send His Word Ministries. The first three appear together, then the remaining statements continue in a gentle repeating flow.</p>
+      <p>The statements below present the core beliefs of Send His Word Ministries.</p>
       <button class="primaryBtn small" data-pause-faith>${faithPaused ? 'Resume' : 'Pause'}</button>
     </section>
     <section class="faithCarousel${pausedClass}" data-faith-carousel>
@@ -336,8 +336,8 @@ function discipleshipPage() {
     <section class="discipleshipHighlights">
       <div class="discipleshipHighlightsText">
         <p class="eyebrow">Discipleship School</p>
-        <h2>Training believers for spiritual maturity and practical ministry service</h2>
-        <p>The Discipleship School brings together teaching, mentorship, prayer, fellowship and commissioning moments that help learners grow into committed disciples of Jesus Christ.</p>
+        <h3>Training believers for spiritual maturity and practical ministry service</h3>
+        <p>Send His Word Ministries Discipleship School is a Christ-centered training ministry dedicated to equipping pastors, church leaders, and believers for effective Christian service and spiritual growth. Through biblical teaching, practical ministry training, leadership development, and discipleship, the school seeks to raise mature disciples who can impact their communities with the Gospel of Jesus Christ.</p>
       </div>
       <div class="discipleshipImageGrid">
         ${discipleshipHighlightPhotos.map((photo) => `
@@ -352,13 +352,10 @@ function discipleshipPage() {
       </div>
     </section>
 
-    <section class="introText discipleshipIntro">
-      <p>The Discipleship Ministry provides structured biblical teaching, prayer formation, mentoring and ministry preparation for believers who desire to grow deeper and serve faithfully.</p>
-    </section>
     <div class="threeCol">
-      ${schoolCard('Northern Discipleship School', 'Raising and equipping believers for Kingdom impact in Northern Uganda.')}
-      ${schoolCard('Central Discipleship School', 'Strengthening believers through teaching, prayer and practical discipleship.')}
-      ${schoolCard('Western Discipleship School', 'Building mature disciples who serve Christ faithfully in their communities.')}
+      ${schoolCard('Northern Discipleship School', 'The Northern Uganda Discipleship Center was launched on February 20, 2026, at Chegere Assembly Headquarters to equip pastors and church leaders within the West Lango Pastorate under....')}
+      ${schoolCard('Central Discipleship School', 'Kampala Discipleship Center was launched in July 03, 2017 in Namuwongo, Kampala Region, with a mission to equip pastors, church leaders, and believers for effective Christian ministry and discipleship.....')}
+      ${schoolCard('Western Discipleship School', 'The Western Uganda Discipleship Center was launched in 2023 and is hosted at Yesu Taremwa Churches in Rukungiri District....')}
     </div>
   `);
 }
